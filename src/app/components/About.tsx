@@ -16,7 +16,7 @@ export default function About() {
           viewport={{ once: true }}
         >
           <Image
-            src="PrathamPortfolio/public/me.jpg" // Replace with your photo URL
+            src="public/me.jpg" // Replace with your photo URL
             alt="Pratham Hegde"
             width={300} // Replace with appropriate width
             height={300} // Replace with appropriate height
