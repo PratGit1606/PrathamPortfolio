@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -14,10 +15,12 @@ export default function About() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <img
+          <Image
             src="/me.jpg" // Replace with your photo URL
             alt="Pratham Hegde"
-            className="rounded-full w-150 h-auto border-4 border-green-500 shadow-lg"
+            width={300} // Replace with appropriate width
+            height={300} // Replace with appropriate height
+            className="rounded-full border-4 border-green-500 shadow-lg"
           />
         </motion.div>
 
@@ -39,7 +42,7 @@ export default function About() {
             About Me
           </motion.h2>
           <p className="mb-4 text-lg text-gray-300 leading-relaxed">
-            Hello! I&apos;m <span className="text-green-500 font-bold">Pratham Hegde</span>, a student at <span className="text-green-500 font-bold">Arizona State University</span>, pursuing a degree in Computer Science with a focus on <span className="text-green-500 font-bold"> Cybersecurity</span>. With a <span className="text-green-500">GPA of 3.93/4.0</span>, I&apos;m proud to be part of the <span className="text-green-500 font-bold">Barrett Honors College</span> and the <span className="text-green-500 font-bold">Grand Challenges Scholars Program.</span>
+            Hello! I&apos;m <span className="text-green-500 font-bold">Pratham Hegde</span>, a student at <span className="text-green-500 font-bold">Arizona State University</span>, pursuing a degree in Computer Science with a focus on <span className="text-green-500 font-bold">Cybersecurity</span>. With a <span className="text-green-500">GPA of 3.93/4.0</span>, I&apos;m proud to be part of the <span className="text-green-500 font-bold">Barrett Honors College</span> and the <span className="text-green-500 font-bold">Grand Challenges Scholars Program.</span>
           </p>
           <p className="mb-4 text-lg text-gray-300 leading-relaxed">
             My passion lies in using technology to solve real-world problems and contribute to cutting-edge research. Whether it&apos;s crafting efficient code or exploring new technologies, I&apos;m driven to make an impact.
