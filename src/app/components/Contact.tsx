@@ -15,7 +15,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <h2 className="text-3xl font-bold tracking-tight">Let's Innovate Together</h2>
+            <h2 className="text-3xl font-bold tracking-tight">Let&apos;s Innovate Together</h2>
             <p className="text-gray-400">
              Feel Free to Reach out!
             </p>

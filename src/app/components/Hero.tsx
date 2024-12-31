@@ -101,8 +101,11 @@ export default function Hero() {
               <span className="block text-green-500">Pratham@linux:~$</span>
               <span>
                 Merging cutting-edge development with groundbreaking research to create impactful digital solutions. <br />
-                
-                <span className = "text-green-500">ASU Computer Science student striving to push the boundaries of what's possible. <br /></span>
+
+                <span className="text-green-500">
+                  ASU Computer Science student striving to push the boundaries of what&apos;s possible. <br />
+                </span>
+
                 {`/* Nice to meet you! */`}
               </span>
             </motion.p>
