@@ -34,7 +34,7 @@ export default function Skills() {
     <section id="skills" className="py-24 bg-black text-green-500 font-mono relative">
       {/* Background Layers */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-900/20 via-black to-black opacity-60"></div>
-      <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('grid.svg')] opacity-10"></div>
 
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         {/* Section Title */}
