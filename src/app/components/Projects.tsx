@@ -14,7 +14,7 @@ const projects = [
     tags: ["Next.js", "TomTom API", "YOLO", "Vector Search - IRIS", "Flask"],
     metrics: "83.4% accuracy, 15% congestion reduction",
     link: "https://devpost.com/software/sherpa-hxp59l",
-    images: ["/images/sherpa1.png", "/images/sherpa2.jpg", "/images/sherpa3.jpg"]
+    images: ["images/sherpa1.png", "images/sherpa2.jpg", "images/sherpa3.jpg"]
   },
   {
     title: "Pronewer",
@@ -23,7 +23,7 @@ const projects = [
     tags: ["Next.js", "AWS", "Clerk", "TailwindCSS"],
     metrics: "30% user engagement increase",
     link: "https://www.pronewer.com/",
-    images: ["/images/pronewer1.png", "/images/pronewer2.png", "/images/pronewer3.png"]
+    images: ["images/pronewer1.png", "images/pronewer2.png", "images/pronewer3.png"]
   },
   {
     title: "TaskerPro",
@@ -32,7 +32,7 @@ const projects = [
     tags: ["React", "Material-UI"],
     metrics: "Enhanced team efficiency by 20%",
     link: "https://github.com/PratGit1606/TaskerProPratGit",
-    images: ["/images/taskerpro1.png", "/images/taskerpro2.png"]
+    images: ["images/taskerpro1.png", "images/taskerpro2.png"]
   },
   {
     title: "WhatTheBleep",
@@ -41,7 +41,7 @@ const projects = [
     tags: ["Python", "Reflex", "OpenAI Whisper"],
     metrics: "98% detection accuracy",
     link: "https://github.com/PratGit1606/WhatTheBleep-AutomaticCensor",
-    images: ["/images/whatthebleep1.jpg", "/images/whatthebleep2.jpg"]
+    images: ["images/whatthebleep1.jpg", "images/whatthebleep2.jpg"]
   },
   {
     title: "Rocket Rescue",
@@ -50,7 +50,7 @@ const projects = [
     tags: ["p5JS", "HTML", "CSS"],
     metrics: "Achieved 500+ users",
     link: "https://github.com/PratGit1606/MasterProject---RocketRescue",
-    images: ["/images/rocketrescue1.jpg"]
+    images: ["images/rocketrescue1.jpg"]
   },
   {
     title: "Reddit Upvote System",
@@ -59,7 +59,7 @@ const projects = [
     tags: ["ReactUI", "Bootstrap"],
     metrics: "First project into the React world",
     link: "https://github.com/PratGit1606/RedditUpvoteSystem",
-    images: ["/images/redditupvote1.png", "/images/redditupvote2.png"]
+    images: ["images/redditupvote1.png", "images/redditupvote2.png"]
   }
 ]
 
