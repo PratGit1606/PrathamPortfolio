@@ -13,19 +13,19 @@ const techStack = {
     { name: 'Python', logo: 'https://cdn.worldvectorlogo.com/logos/python-5.svg' },
     { name: 'Java', logo: 'https://cdn.worldvectorlogo.com/logos/java.svg' },
     { name: 'C/C++', logo: 'https://cdn.worldvectorlogo.com/logos/c.svg' },
-    { name: 'SQL', logo: '/sql.png' },
+    { name: 'SQL', logo: 'sql.png' },
   ],
   Tools: [
     { name: 'Linux', logo: 'https://cdn.worldvectorlogo.com/logos/tux.svg' },
     { name: 'Git', logo: 'https://cdn.worldvectorlogo.com/logos/git-icon.svg' },
     { name: 'CloudFlare', logo: 'https://cdn.worldvectorlogo.com/logos/cloudflare.svg' },
-    { name: 'Clerk', logo: '/clerk.png' },
+    { name: 'Clerk', logo: 'clerk.png' },
   ],
   Specialized: [
-    { name: 'Assembly Language', logo: '/ASM.jpg' },
+    { name: 'Assembly Language', logo: 'ASM.jpg' },
     { name: 'NLP', logo: 'https://cdn-icons-png.flaticon.com/512/4293/4293773.png' },
     { name: 'Semantic Search', logo: 'https://cdn-icons-png.flaticon.com/512/1484/1484000.png' },
-    { name: 'DSA', logo: '/DSA.png' },
+    { name: 'DSA', logo: 'DSA.png' },
   ],
 }
 
